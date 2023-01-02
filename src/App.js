@@ -12,6 +12,7 @@ import Trash from './pages/Trash';
 function App() {
   return (
     <>
+    <div className='split'>
     <Router>
     <Sidebar/>
     <Routes>
@@ -23,6 +24,8 @@ function App() {
       <Route path='/trash' element={<Trash />} />
     </Routes>
     </Router>
+    </div>
+    
      
     </>
   );
